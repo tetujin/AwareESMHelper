@@ -10,6 +10,7 @@ def get_common_esm_elements():
             "esm_instructions": "EDIT HERE",
             "esm_submit": "Submit",
             "esm_expiration_threshold": 60,
+            "esm_trigger":"EDIT HERE",
             "esm_na": 0
             }
 
