@@ -200,9 +200,18 @@ def check_slider_esm_elements(esm):
         print('\t**error** esm_scale_min_label format is wrong. please use str.')
 
 if __name__ == '__main__':
-    f = open('aware_esm_sample.json', 'r')
-    # argvs = sys.argv
-    # print(argvs[1])
-    # f = open(argvs[1], 'r')
-    json_dict = json.load(f)
-    check_esm_fonfig(json_dict)
+    ### test ######
+    # f = open('sample_config.json', 'r')
+    # json_dict = json.load(f)
+    # check_esm_fonfig(json_dict)
+
+    ###############
+    argvs = sys.argv
+    if(len(argvs) < 2):
+        print("Please add a path of the target AWARE ESM configuration file as a parameter.")
+        print("EXAMPLE:")
+        print("python3 format_checker.py sample_config.json")
+    else:
+        f = open(argvs[1], 'r')
+        json_dict = json.load(f)
+        check_esm_fonfig(json_dict)
