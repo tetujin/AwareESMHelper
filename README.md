@@ -40,9 +40,9 @@ $ python3 template_generator.py master.json 9,12,15 likert,likert,likert -s 06-2
 ```
 
 Example-3:
--r = randomize
--p = expiration
--m = interface mode (0=one-by-one interface, 1=single line interface)
+* -r = randomize
+* -p = expiration
+* -m = interface mode (0=one-by-one interface, 1=single line interface)
 ```
 $ python3 template_generator.py master.json 9,12,15 likert,likert,likert -r 15 -p 15 -m 1
 ```
