@@ -1,0 +1,52 @@
+[
+    {
+        "start_date": "06-23-2014",
+        "hours": [
+            9
+        ],
+        "randomize": 0,
+        "esms": [
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_submit": "Submit",
+                    "esm_radios": [
+                        "YES",
+                        "NO"
+                    ],
+                    "esm_flows": [
+                        {
+                            "user_answer": "YES",
+                            "next_esm": {
+                                "esm": {
+                                    "esm_expiration_threshold": 60,
+                                    "esm_submit": "Submit",
+                                    "esm_likert_min_label": "Bad",
+                                    "esm_title": "EDIT HERE",
+                                    "esm_na": 0,
+                                    "esm_instructions": "EDIT HERE",
+                                    "esm_type": 4,
+                                    "esm_trigger": "flow_0_schedule1_0_radio_liker",
+                                    "esm_likert_step": 1,
+                                    "esm_likert_max_label": "Good",
+                                    "esm_likert_max": 5
+                                }
+                            }
+                        }
+                    ],
+                    "esm_title": "EDIT HERE",
+                    "esm_type": 2,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_na": 0,
+                    "esm_trigger": "schedule1_0_radio"
+                }
+            }
+        ],
+        "notification_body": "EDIT HERE",
+        "interface": 0,
+        "expiration": 0,
+        "notification_title": "EDIT HERE",
+        "end_date": "06-23-2050",
+        "schedule_id": "schedule1"
+    }
+]

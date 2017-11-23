@@ -6,59 +6,27 @@
                 "esm": {
                     "esm_expiration_threshold": 60,
                     "esm_instructions": "EDIT HERE",
-                    "esm_likert_max": 5,
-                    "esm_likert_max_label": "Good",
-                    "esm_likert_min_label": "Bad",
-                    "esm_likert_step": 1,
                     "esm_na": 0,
+                    "esm_radios": [
+                        "YES",
+                        "NO"
+                    ],
                     "esm_submit": "Submit",
                     "esm_title": "EDIT HERE",
-                    "esm_trigger": "EDIT HERE",
-                    "esm_type": 4
-                }
-            },
-            {
-                "esm": {
-                    "esm_expiration_threshold": 60,
-                    "esm_instructions": "EDIT HERE",
-                    "esm_likert_max": 5,
-                    "esm_likert_max_label": "Good",
-                    "esm_likert_min_label": "Bad",
-                    "esm_likert_step": 1,
-                    "esm_na": 0,
-                    "esm_submit": "Submit",
-                    "esm_title": "EDIT HERE",
-                    "esm_trigger": "EDIT HERE",
-                    "esm_type": 4
-                }
-            },
-            {
-                "esm": {
-                    "esm_expiration_threshold": 60,
-                    "esm_instructions": "EDIT HERE",
-                    "esm_likert_max": 5,
-                    "esm_likert_max_label": "Good",
-                    "esm_likert_min_label": "Bad",
-                    "esm_likert_step": 1,
-                    "esm_na": 0,
-                    "esm_submit": "Submit",
-                    "esm_title": "EDIT HERE",
-                    "esm_trigger": "EDIT HERE",
-                    "esm_type": 4
+                    "esm_trigger": "schedule1_0_radio",
+                    "esm_type": 2
                 }
             }
         ],
         "expiration": 0,
         "hours": [
-            6,
-            12,
-            18
+            9
         ],
         "interface": 0,
         "notification_body": "EDIT HERE",
         "notification_title": "EDIT HERE",
         "randomize": 0,
-        "schedule_id": "EDIT HERE\"",
+        "schedule_id": "schedule1",
         "start_date": "06-23-2014"
     }
 ]
