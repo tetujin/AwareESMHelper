@@ -138,7 +138,7 @@ def get_esm(esm_type, esm_trigger):
     elif (esm_type == "11" or esm_type == "date"):
         esm = get_date_elements(esm_trigger + "_date")
     elif (esm_type == "12" or esm_type == "time"):
-        esm = get_date_elements(esm_trigger + "_time")
+        esm = get_time_elements(esm_trigger + "_time")
     elif (esm_type == "13" or esm_type == "clock"):
         esm = get_clock_elements(esm_trigger + "_clock")
     elif (esm_type == "14" or esm_type == "picture"):
