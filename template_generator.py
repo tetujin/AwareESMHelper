@@ -242,3 +242,4 @@ if __name__ == '__main__':
 
     print(export_file + " is generated correctly. Please modify the configuration file for your study.")
     os.system('open '+export_file)
+

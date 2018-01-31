@@ -1,0 +1,32 @@
+[
+    {
+        "end_date": "06-23-2050",
+        "esms": [
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_na": 0,
+                    "esm_radios": [
+                        "YES",
+                        "NO"
+                    ],
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_0_radio",
+                    "esm_type": 2
+                }
+            }
+        ],
+        "expiration": 0,
+        "hours": [
+            9
+        ],
+        "interface": 0,
+        "notification_body": "EDIT HERE",
+        "notification_title": "EDIT HERE",
+        "randomize": 0,
+        "schedule_id": "schedule1",
+        "start_date": "06-23-2014"
+    }
+]

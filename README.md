@@ -100,6 +100,3 @@ $ python3 format_checker.py master.json
 ## AWARE ESM format
 Please refer the following link.
 http://www.awareframework.com/schedule-esms-for-aware-ios-client/
-
-
-
