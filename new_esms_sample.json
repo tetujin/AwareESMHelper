@@ -1,0 +1,104 @@
+[
+    {
+        "schedule_id": "schedule1",
+        "start_date": "06-23-2014",
+        "end_date": "06-23-2050",
+        "expiration": 0,
+        "hours": [
+            16,
+            17,
+            18,
+            19,
+            20
+        ],
+        "interface": 0,
+        "notification_body": "EDIT HERE",
+        "notification_title": "EDIT HERE",
+        "randomize": 0,
+        "esms": [
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_0_number",
+                    "esm_type": 9
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_1_web",
+                    "esm_type": 10,
+                    "esm_url": "https://xxxx.xxxx.xxxx"
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_2_date",
+                    "esm_type": 11
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_3_time",
+                    "esm_type": 11
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_4_clock",
+                    "esm_type": 13
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_5_picture",
+                    "esm_camera":0,
+                    "esm_type": 14
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_6_audio",
+                    "esm_type": 15
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "EDIT HERE",
+                    "esm_submit": "Submit",
+                    "esm_title": "EDIT HERE",
+                    "esm_trigger": "schedule1_7_video",
+                    "esm_camera":0,
+                    "esm_type": 16
+                }
+            }
+        ]
+    }
+]
