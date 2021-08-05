@@ -165,6 +165,10 @@ def check_likert_esm_elements(esm):
     if isinstance(esm_likert_min_label, str) is False:
         print('\t**error** esm_likert_min_label format is wrong. please use string.')
 
+    esm_typical_vals = [3, 5, 7, 9]
+    if esm_likert_max not in esm_typical_vals:
+        print("\t**WARNING** ESM values outside of typical values. We recommend using these values:", *esm_typical_vals, sep='\n\t\t- ')
+
 def check_quickanswer_esm_elements(esm):
     esm_quick_answers = esm['esm']['esm_quick_answers']
     if len(esm_quick_answers) <= 0:
