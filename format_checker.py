@@ -72,43 +72,43 @@ def check_esm_fonfig(json_dict):
             check_common_esm_elements(esm)
             esm_type = esm['esm']['esm_type']
 
-            if esm_type is 1:
+            if esm_type == 1:
                 print('\tesm_type = (1) text input')
-            elif esm_type is 2:
+            elif esm_type == 2:
                 print('\tesm_type = (2) radio button')
                 check_radio_esm_elements(esm)
-            elif esm_type is 3:
+            elif esm_type == 3:
                 print('\tesm_type = (3) check box')
                 check_checkbox_esm_elements(esm)
-            elif esm_type is 4:
+            elif esm_type == 4:
                 print('\tesm_type = (4) likert scale')
                 check_likert_esm_elements(esm)
-            elif esm_type is 5:
+            elif esm_type == 5:
                 print('\tesm_type = (5) quick answer')
                 check_quickanswer_esm_elements(esm)
-            elif esm_type is 6:
+            elif esm_type == 6:
                 print('\tesm_type = (6) slider')
                 check_slider_esm_elements(esm)
-            elif esm_type is 7:
+            elif esm_type == 7:
                 print('\tesm_type = (7) date/time picker')
-            elif esm_type is 8:
+            elif esm_type == 8:
                 print('\tesm_type = (8) PAM')
             ########## ESMs under the line are prototypes (No. 9-16) ###########
-            elif esm_type is 9:
+            elif esm_type == 9:
                 print('\tesm_type = (9) number')
-            elif esm_type is 10:
+            elif esm_type == 10:
                 print('\tesm_type = (10) web')
-            elif esm_type is 11:
+            elif esm_type == 11:
                 print('\tesm_type = (11) date')
-            elif esm_type is 12:
+            elif esm_type == 12:
                 print('\tesm_type = (12) time')
-            elif esm_type is 13:
+            elif esm_type == 13:
                 print('\tesm_type = (13) clock')
-            elif esm_type is 14:
+            elif esm_type == 14:
                 print('\tesm_type = (14) picture')
-            elif esm_type is 15:
+            elif esm_type == 15:
                 print('\tesm_type = (15) audio')
-            elif esm_type is 16:
+            elif esm_type == 16:
                 print('\tesm_type = (16) video')
             else:
                 print('\tthis esm_type('+str(esm_type)+') is not supported.')
