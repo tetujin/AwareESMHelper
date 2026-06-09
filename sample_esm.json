@@ -1,0 +1,216 @@
+[
+    {
+        "end_date": "06-23-2050",
+        "esms": [
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Describe what is on your mind right now.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Free text",
+                    "esm_trigger": "esm_all_types_0_text",
+                    "esm_type": 1
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Select the option that best matches your current context.",
+                    "esm_na": 0,
+                    "esm_radios": [
+                        "Home",
+                        "Work",
+                        "School",
+                        "In transit",
+                        "Other"
+                    ],
+                    "esm_submit": "Submit",
+                    "esm_title": "Radio",
+                    "esm_trigger": "esm_all_types_1_radio",
+                    "esm_type": 2
+                }
+            },
+            {
+                "esm": {
+                    "esm_checkboxes": [
+                        "Walking",
+                        "Talking",
+                        "Eating",
+                        "Using phone",
+                        "Resting"
+                    ],
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Select all activities that apply.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Checkbox",
+                    "esm_trigger": "esm_all_types_2_checkbox",
+                    "esm_type": 3
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Rate your mood from low to high.",
+                    "esm_likert_max": 5,
+                    "esm_likert_max_label": "Very good",
+                    "esm_likert_min_label": "Very bad",
+                    "esm_likert_step": 1,
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Likert",
+                    "esm_trigger": "esm_all_types_3_liker",
+                    "esm_type": 4
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Answer with one tap.",
+                    "esm_na": 0,
+                    "esm_quick_answers": [
+                        "Yes",
+                        "No",
+                        "Maybe"
+                    ],
+                    "esm_submit": "Submit",
+                    "esm_title": "Quick answer",
+                    "esm_trigger": "esm_all_types_4_quick",
+                    "esm_type": 5
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Slide to indicate current stress.",
+                    "esm_na": 0,
+                    "esm_scale_max": 10,
+                    "esm_scale_max_label": "High",
+                    "esm_scale_min": 0,
+                    "esm_scale_min_label": "Low",
+                    "esm_scale_start": 5,
+                    "esm_scale_step": 1,
+                    "esm_submit": "Submit",
+                    "esm_title": "Scale",
+                    "esm_trigger": "esm_all_types_5_slider",
+                    "esm_type": 6
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Pick the date and time when this event started.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Date and time",
+                    "esm_trigger": "esm_all_types_6_datetime",
+                    "esm_type": 7
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Choose the image that best represents your mood.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "PAM",
+                    "esm_trigger": "esm_all_types_7_pam",
+                    "esm_type": 8
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Enter the number of caffeinated drinks today.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Numeric",
+                    "esm_trigger": "esm_all_types_8_number",
+                    "esm_type": 9
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Open the linked page and answer there.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Web",
+                    "esm_trigger": "esm_all_types_9_web",
+                    "esm_type": 10,
+                    "esm_url": "https://example.com/esm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Pick today's relevant date.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Date picker",
+                    "esm_trigger": "esm_all_types_10_date",
+                    "esm_type": 11
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Pick the time when you woke up.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Clock",
+                    "esm_trigger": "esm_all_types_11_clock",
+                    "esm_type": 13
+                }
+            },
+            {
+                "esm": {
+                    "esm_camera": 0,
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Take a photo of your current environment.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Picture",
+                    "esm_trigger": "esm_all_types_12_picture",
+                    "esm_type": 14
+                }
+            },
+            {
+                "esm": {
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Record a short audio note.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Audio",
+                    "esm_trigger": "esm_all_types_13_audio",
+                    "esm_type": 15
+                }
+            },
+            {
+                "esm": {
+                    "esm_camera": 0,
+                    "esm_expiration_threshold": 60,
+                    "esm_instructions": "Record a short video clip.",
+                    "esm_na": 0,
+                    "esm_submit": "Submit",
+                    "esm_title": "Video",
+                    "esm_trigger": "esm_all_types_14_video",
+                    "esm_type": 16
+                }
+            }
+        ],
+        "expiration": 30,
+        "hours": [
+            9,
+            13,
+            18
+        ],
+        "interface": 0,
+        "notification_body": "Please answer the ESM sample survey.",
+        "notification_title": "ESM sample",
+        "randomize": 15,
+        "schedule_id": "esm_all_types",
+        "start_date": "01-01-2026"
+    }
+]
