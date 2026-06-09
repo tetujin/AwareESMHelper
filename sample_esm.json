@@ -202,12 +202,11 @@
         ],
         "expiration": 30,
         "hours": [
-            -1,
             9,
             13,
             18
         ],
-        "interface": 0,
+        "interface": 1,
         "notification_body": "Please answer the ESM sample survey.",
         "notification_title": "ESM sample",
         "randomize": 15,
